@@ -1,0 +1,65 @@
+A coverage should contain the following sections in order:
+1. Metadata
+1.a. Title
+1.b. Genre
+1.c. Period
+1.d. Location
+1.e. Budget
+2. Summary
+2.a. Logline
+2.b. Synopsis
+2.c. Characters
+3. Evaluation
+3.a. Comments
+3.b. Grading
+3.c. Recommendation
+
+1.a. Title. The title of the script.
+
+1.b. Genre. Classify the movie at most 3 of the following separated by commas: Action, Adventure, Animation, Comedy, Coming of Age, Crime, Dark Comedy, Disaster, Drama, Epic, Erotic, Fantasy, History, Musical, Mystery, Noir, Romance, Science Fiction, Sports, Suspense, Thriller, War, Western, Young Adults, or Horror. Be exhaustive.
+
+1.c. Period. When is the story taking place? Be as specific as possible.
+
+1.d. Location. Where is the story taking place? Which country and city? What specific places?
+
+1.e. Budget. Classify the estimated budget into one of Low (up to $5M), Medium ($5-50M), High (above $50M).
+
+2.a. Logline. The logline summarizes the arc of the Synopsis.
+- The Logline should be a single sentence. 
+- The hero (Lead character) should be the sentence's subject. 
+- It should paint a picture of the entire three-act journey without spoiling any twists or surprises. 
+- It should not use characters' names or phrases such as "a story about". 
+
+2.b. Synopsis. The Synopsis should be as brief as possible but give a clear and complete understanding of the story. 
+- The Synopsis should include every major plot point, significant character, and important and vivid details. 
+- It should be about 500 words. 
+- It should follow the three-act journey. The first act usually establishes the main characters, their relationships, and the world they live in. Later in the first act, a catalyst occurs, that confronts the main character (the Protagonist) with a call to action (desire, problem, goal, mission). The second act usually depicts the Protagonist's attempt to resolve the problem, only to find themselves in ever worsening situations. They are not yet able to deal with the problem and must learn something. This is referred to as a character arc. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the main tensions of the story are brought to their most intense point and the dramatic question answered, making the Protagonist and other characters grow. 
+- It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
+- It should always use the omniscient third person and present tense. 
+- It should not get into a running commentary.
+- It should avoid any phrases that take the reader out of the story, i.e., "the story opens with," "we cut to," etc. 
+- Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified (subsequently, they should be in regular case).
+- When introducing secondary characters, they should be related to the lead character or other important roles.
+
+2.c. Characters. 
+- List characters in order of importance (Lead, Supporting Lead,  Supporting). 
+- For each character, write a brief character description (name, importance, age, gender, ethnicity if specified). 
+- For minor characters, indicate their relationship to the lead character or other important roles. 
+
+3.a. Comments. 
+- Comments should clearly and concisely explain the Grading of the script. 
+- They should be about 500 words. 
+- They should start with characterizing the script concept in reference to other scripts with some qualifiers: for example, "Pretty Little Liers is Desperate Housewives with teens", "Fast and Furious is Point Break in the world of car racing". 
+- They should avoid the subjective, i.e., "I think the script is boring," but instead speak generally, i.e., "The injection of higher stakes could keep the audience's interest alive through the slow third act." 
+- Each paragraph must contain a topic sentence, support, and conclusion. 
+- Assertions should be justified. Avoid saying something isn't working; indicate why it isn't working. 
+- If the Recommendation is Consider or Recommend, the Comments should contain ideas on how the script can be improved. 
+
+3.b. Grading. Grade the following aspects of the script as Excellent, Good, Fair, or Poor:
+- Concept: What is this script really about? Is this theme interesting? Is the angle original? 
+- Plot / Structure: Does the pacing of plot events build effectively to one or more climaxes? Are there holes in the plot that need fixing? 
+- Writing / Dialogues: Does writing serve the story? Was the script too long? Was anything missing? Are dialogues catchy, lifelike, funny, or in need of a punch-up? Does the tone suit the story's concept? Do different characters have distinct voices?
+- Characters: Is the hero realistic? Does he/she go through an emotional or physical change during the course of the story? Can we root for them? Do supporting characters enrich the story? Will actors be attracted to playing characters?
+- Commerciality: Is this going to be commercially successful? What are the weakest aspects of this material? Are these weaknesses significant? Pay special attention to current or growing fads as well as trends that have peaked. 
+
+3.c. Recommendation. Categorize the script as Recommend (5% of scripts), Consider (20% of scripts), or Pass (75% of scripts).

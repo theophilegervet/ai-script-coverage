@@ -1,0 +1,54 @@
+A review should contain the following sections in order. Its structure should precisely follow each item below. Make sure to comment on every point starting with "-". Be as exhaustive as possible.
+
+1.a. Title. Difference from the reference.
+1.b. Genre. Difference from the reference.
+1.c. Period. Difference from the reference.
+1.d. Location. Difference from the reference.
+1.e. Budget. Difference from the reference.
+
+2.a. Logline.
+2.a.i. Guideline following. 
+- The Logline should be a single sentence. 
+- The hero (Lead character) should be the sentence's subject. 
+- It should paint a picture of the entire three-act journey without spoiling any twists or surprises. 
+- It should not use characters' names or phrases such as "a story about". 
+2.a.ii. Difference from the reference.
+
+2.b. Synopsis.
+2.b.i. Guideline following. 
+- The Synopsis should include every major plot point, significant character, and important and vivid details. 
+- It should be about 500 words. 
+- It should follow the three-act journey. The first act usually establishes the main characters, their relationships, and the world they live in. Later in the first act, a catalyst occurs, that confronts the main character (the Protagonist) with a call to action (desire, problem, goal, mission). The second act usually depicts the Protagonist's attempt to resolve the problem, only to find themselves in ever worsening situations. They are not yet able to deal with the problem and must learn something. This is referred to as a character arc. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the main tensions of the story are brought to their most intense point and the dramatic question answered, making the Protagonist and other characters grow. 
+- It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
+- It should always use the omniscient third person and present tense. 
+- It should not get into a running commentary.
+- It should avoid any phrases that take the reader out of the story, i.e., "the story opens with," "we cut to," etc. 
+- Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified (subsequently, they should be in regular case).
+- When introducing secondary characters, they should be related to the lead character or other important roles.
+2.b.ii. False negatives. List any elements present in the reference and missing from the input. 
+2.b.iii. False positives. List any elements present in the reference and missing from the input. 
+
+2.c. Characters. Guideline following.
+- List characters in order of importance (Lead, Supporting Lead,  Supporting). 
+- For each character, write a brief character description (name, importance, age, gender, ethnicity if specified). 
+- For minor characters, indicate their relationship to the lead character or other important roles. 
+
+3.a. Comments. 
+3.a.i. Guideline following. 
+- Comments should clearly and concisely explain the Grading of the script. 
+- They should be about 500 words. 
+- They should start with characterizing the script concept in reference to other scripts with some qualifiers: for example, "Pretty Little Liers is Desperate Housewives with teens", "Fast and Furious is Point Break in the world of car racing". 
+- They should avoid the subjective, i.e., "I think the script is boring," but instead speak generally, i.e., "The injection of higher stakes could keep the audience's interest alive through the slow third act." 
+- Each paragraph must contain a topic sentence, support, and conclusion. 
+- Assertions should be justified. Which ones are not?
+- If the Recommendation is Consider or Recommend, the Comments should contain ideas on how the script can be improved. 
+3.a.ii. False negatives. List any elements present in the reference and missing from the input. 
+3.a.iii. False positives. List any elements present in the reference and missing from the input. 
+
+3.b. Grading. Difference from the reference.
+
+3.c. Recommendation. Difference from the reference.
+
+4. Review. Characterize the script coverage as:
+- Good if the Logline, Synopsis, and Comments all respect guidelines (all positive answers in sections 2.a.i., 2.a.i., and 3.a.i.). All significant characters and major plot points from the reference Synopsis are present in the input Synopsis (no false negatives in section 2.b.ii.). The input Grading is very similar to the reference Grading (no significant difference in section 3.b.).
+- Unacceptable otherwise.

@@ -1,4 +1,6 @@
+import json
 import os
+import pprint
 
 import fire
 from openai import OpenAI
@@ -7,13 +9,13 @@ from openai import OpenAI
 def generate_coverage(
     input_script_path: str,
     output_coverage_path: str,
-    example_coverage_path: str = "coverages_human_txt/detox_coverage.txt",
+    example_coverage_path: str = "coverages_human/detox_coverage.json",
 ):
-    with open("generate_guidelines.txt") as f:
+    with open("guidelines/generate.txt") as f:
         guidelines = f.read()
 
     with open(example_coverage_path) as f:
-        example_coverage = f.read()
+        example_coverage = json.dumps(json.load(f))
 
     with open(input_script_path) as f:
         input_script = f.read()
@@ -29,14 +31,19 @@ def generate_coverage(
     )
 
     messages = [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant designed to output JSON.",
+        },
         {"role": "user", "content": prompt},
     ]
 
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    response = (
+    response = json.loads(
         client.chat.completions.create(
             model="gpt-4-1106-preview",
+            response_format={"type": "json_object"},
             messages=messages,
         )
         .choices[0]
@@ -44,7 +51,7 @@ def generate_coverage(
     )
 
     with open(output_coverage_path, "w") as f:
-        f.write(response)
+        json.dump(response, f, indent=4)
 
     print(response)
 
@@ -52,7 +59,7 @@ def generate_coverage(
 if __name__ == "__main__":
     """
     python generate_coverage.py \
-        --input_script_path scripts_txt/being_silver.txt \
-        --output_coverage_path coverages_generated_txt/being_silver_coverage.txt
+        --input_script_path scripts/being_silver.txt \
+        --output_coverage_path coverages_generated/being_silver_coverage.json
     """
     fire.Fire(generate_coverage)

@@ -1,0 +1,11 @@
+A review should contain the following sections in order in a JSON. 
+
+1. Title. Difference from the reference.
+
+2. Genre. Difference from the reference.
+
+3. Period. Difference from the reference.
+
+4. Location. Difference from the reference.
+
+5. Budget. Difference from the reference.

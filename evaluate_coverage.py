@@ -1,65 +1,85 @@
+import json
 import os
+import pprint
 
 import fire
 from openai import OpenAI
 
 
 def evaluate_coverage(
-    input_script_path: str,
     generated_coverage_path: str,
     human_coverage_path: str,
-    output_comparison_path: str,
+    output_review_path: str,
+    example_review_path: str = "reviews_human/detox_review.json",
 ):
-    with open("evaluate_guidelines.txt") as f:
-        guidelines = f.read()
-
-    with open(input_script_path) as f:
-        input_script = f.read()
+    with open("guidelines/evaluate_metadata.txt") as f:
+        evaluate_metadata_guidelines = f.read()
+    with open("guidelines/evaluate_summary.txt") as f:
+        evaluate_summary_guidelines = f.read()
+    with open("guidelines/evaluate_evaluation.txt") as f:
+        evaluate_evaluation_guidelines = f.read()
 
     with open(generated_coverage_path) as f:
-        generated_coverage_path = f.read()
+        generated_coverage = json.load(f)
 
     with open(human_coverage_path) as f:
-        human_coverage_path = f.read()
+        human_coverage = json.load(f)
 
-    prompt = (
-        "INSTRUCTIONS\n\nYou are an expert at script coverage and will be asked to review and grade a coverage with respect to the original script and a reference coverage according to the following guidelines.\n\n"
-        + guidelines
-        # + "\n\nREFERENCE SCRIPT\n\n###\n"
-        # + input_script
-        + "\n###\n\nREFERENCE COVERAGE\n\n###\n"
-        + human_coverage_path
-        + "\n###\n\nReview and grade the following coverage with respect to the script and reference coverage.\n\nINPUT COVERAGE\n\n###\n"
-        + generated_coverage_path
-        + "\n###"
-    )
-    messages = [
-        {"role": "user", "content": prompt},
-    ]
+    with open(example_review_path) as f:
+        example_review = json.load(f)
+
+    section_to_guidelines = {
+        "Metadata": evaluate_metadata_guidelines,
+        "Summary": evaluate_summary_guidelines,
+        "Evaluation": evaluate_evaluation_guidelines,
+    }
 
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    response = (
-        client.chat.completions.create(
-            model="gpt-4-1106-preview",
-            messages=messages,
+    review = {}
+
+    for section, guidelines in section_to_guidelines.items():
+        prompt = (
+            "INSTRUCTIONS\n\nYou are an expert at script coverage and will be asked to review and grade a coverage with respect to the original script and a reference coverage according to the following guidelines.\n\n"
+            + guidelines
+            + "\n\nEXAMPLE COVERAGE REVIEW\n\n"
+            + json.dumps(example_review[section])
+            + "\n###\n\nREFERENCE COVERAGE\n\n###\n"
+            + json.dumps(human_coverage[section])
+            + "\n###\n\nReview and grade the following coverage with respect to the reference coverage.\n\nINPUT COVERAGE\n\n###\n"
+            + json.dumps(generated_coverage[section])
+            + "\n###"
         )
-        .choices[0]
-        .message.content
-    )
+        messages = [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant designed to output JSON.",
+            },
+            {"role": "user", "content": prompt},
+        ]
 
-    with open(output_comparison_path, "w") as f:
-        f.write(response)
+        response = json.loads(
+            client.chat.completions.create(
+                model="gpt-4-1106-preview",
+                response_format={"type": "json_object"},
+                messages=messages,
+            )
+            .choices[0]
+            .message.content
+        )
+        review[section] = response
 
-    print(response)
+    with open(output_review_path, "w") as f:
+        json.dump(review, f, indent=4)
+
+    print(review)
 
 
 if __name__ == "__main__":
     """
     python evaluate_coverage.py \
-        --input_script_path scripts_txt/being_silver.txt \
-        --generated_coverage_path coverages_generated_txt/being_silver_coverage.txt \
-        --human_coverage_path coverages_human_txt/being_silver_coverage.txt \
-        --output_comparison_path coverages_review_txt/being_silver_review.txt
+        --generated_coverage_path coverages_generated/being_silver_coverage.json \
+        --human_coverage_path coverages_human/being_silver_coverage.json \
+        --output_review_path reviews_generated/being_silver_review.json
     """
     fire.Fire(evaluate_coverage)

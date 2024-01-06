@@ -1,0 +1,94 @@
+{
+    "Coverage Rating": {
+        "Summary": "3 / 10. Missing major plot points and significant characters",
+        "Evaluation": "2 / 10. Significant grading differences with reference. Lots of missing commentary."
+    },
+    "Metadata": {
+        "Title":  "No difference.",
+        "Genre": "Reference mentions 'Science Fiction' while input mentions 'Thriller'.",
+        "Period": "No difference.",
+        "Location": "No difference.",
+        "Budget": "Reference states 'Low' while input states 'Medium'."
+    },
+    "Summary": {
+        "Logline": {
+            "Guideline following": {
+                "Single sentence": "Yes.",
+                "Hero as subject": "Yes.",
+                "Entire three-act journey": "Yes.",
+                "No spoilers": "Yes.",
+                "No characters' names": "Sam's name is mentioned in the Logline."
+            },
+            "Difference from the reference": [
+                "Reference mentions the hero is overworked and grieving, while input characterizes her as bereaved.",
+                "Reference mentions the hero's name (Sam)."
+            ]
+        },
+        "Synopsis": {
+            "Guideline following": {
+                "Major plot points": "The input misses several key plot points: the encounter with the woman with a severed tongue at the Sonic Drive-In, Sam's hallucination's of her deceased husband, the sacrifice of the Lavenders.",
+                "Significant characters": "The input includes the Lead characters but misses important Supporting Lead and Supporting characters, like the Lavenders, Eva, and Aubrey.",
+                "Important and vivid details": "The input lacks vivid details compared to the reference, like the specific encounters and the types of detox treatments.",
+                "Word count": "Input is significantly shorter than the reference and well under 500 words.",
+                "Three-act journey": "Input summary follows the three-act structure lacks important elements, particularly in acts two and three.",
+                "Avoiding subplots": "Input avoids subplots well, remaining focused on the main story.",
+                "Omniscient third person and present tense": "Yes.",
+                "Avoid running commentary": "Yes.",
+                "Avoid phrases taking reader out of story": "Yes.",
+                "Character names in all caps": "Some names appear in all caps initially, but the input doesn't consistently follow this guideline."
+            },
+            "False negatives": [
+                "FaceTime with Madison",
+                "Sonic Drive-In severed tongue encounter",
+                "Hallucinations of Sam's deceased husband",
+                "Specific experiences like skin treatments and group therapy episodes",
+                "The escape and climax scenes are only briefly mentioned"
+            ],
+            "False positives": []
+        },
+        "Characters": {
+            "Madison": "Missing gender and age present in reference.",
+            "Nenita": "Missing ethnicity present in reference.",
+            "The Lavenders": "Missing entirely.",
+            "Eva": "Missing entirely.",
+            "Aubrey": "Missing entirely."
+        }
+    },
+    "Evaluation": {
+        "Grading": {
+            "Concept": "Reference = Good | Input = Excellent",
+            "Plot / Structure": "Reference = Fair | Input = Excellent",
+            "Writing / Dialogues": "Reference = Fair | Input = Good",
+            "Characters": "Reference = Good | Input = Good",
+            "Commerciality": "Reference = Excellent | Input = Good"
+        },
+        "Comments": {
+            "Concept": {
+                "Reference to other plots": "Missing, while the reference mentions the disturbing “wellness center” used for eternal youth of A CURE FOR WELLNESS meets the themes of cult, trauma, and grief of MIDSOMMAR, with a female-led cast and blood witchcraft in the vein of SUSPIRIA.",
+                "Concept originality": "Missing, while the reference mentions the concept is original."
+            },
+            "Plot / Structure": {
+                "Plot originality": "Missing, while the reference mentions Detox feels like a horror B-movie lacking originality: almost as soon as we meet Willa, we expect her to sacrifice women to keep her radiant youth.",
+                "Climactic pacing": "Missing, while the reference mentions Detox effectively builds tension and conflict throughout the five days of the cure/film, up to a cathartic climax on Day 5.",
+                "Plot holes": "Missing."
+            },
+            "Writing / Dialogues": {
+                "Catchy, lifelike, funny": "Missing.",
+                "Distinct character voices": "Missing.",
+                "Appropriate tone": "Missing, while the reference mentions Detox does not fully leverage the comedic and satirical potential and mostly keeps a serious tone instead.",
+                "Length": "Missing."
+            },
+            "Characters": {
+                "Realistic, personable hero": "Missing.",
+                "Rich supporting characters": "Missing, while the reference mentions most supporting characters feel like stereotypes with a one-dimensional reason they came to Evexia."
+            },
+            "Commerciality": {
+                "Marketability": "Missing, while the reference mentions Detox has excellent commercial potential with a zeitgeisty high-concept that is easy to sell and market to women and men between 17 and 30",
+                "Cost": "Missing, while the reference mentions that as a contained film with a small cast, Detox has the potential to be a low-budget production."
+            }
+        },
+        "Recommendation": {
+            "Difference": "Reference = Consider | Input = Recommend"
+        }
+    }
+}

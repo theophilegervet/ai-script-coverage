@@ -1,14 +1,18 @@
 {
     "Metadata": {
-        "Title": "BEING SILVER",
         "Genre": [
             "Comedy",
             "Drama",
             "Romance"
         ],
-        "Period": "Present, 1995, late 1980s",
-        "Location": "Burbank, Michigan",
-        "Budget": "Medium"
+        "Period": [
+            "Present",
+            "1995", 
+            "Late 1980s"
+        ],
+        "Location": [
+            "Burbank, Michigan"
+        ]
     },
     "Summary": {
         "Logline": "When the authoritarian patriarch of a Jewish family is dying at the hospital, his childish lesbian daughter joins her dysfunctional family to mourn together. But the technicalities of the father's death revive the relatives' conflictual relationships.",
@@ -34,7 +38,7 @@
         },
         "Commerciality": {
             "Grade": "Good",
-            "Comment": "BEING SILVER, as most dramedies, would benefit from a famous cast's appeal to draw audiences and will heavily rely on the performance and charm of its actor to exploit its full dramatic and humorous potential."
+            "Comment": "BEING SILVER, as most dramedies, would benefit from a famous cast's appeal to draw audiences and will heavily rely on the performance and charm of its actor to exploit its full dramatic and humorous potential. This will require at least a Medium budget."
         },
         "Recommendation": "Recommend"
     }

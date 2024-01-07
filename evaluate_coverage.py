@@ -5,6 +5,42 @@ import fire
 from openai import OpenAI
 
 
+def evaluate_section(
+    client,
+    human_coverage_section,
+    generated_coverage_section,
+    example_review_section,
+    guidelines_section,
+):
+    prompt = (
+        "INSTRUCTIONS\n\nYou are an expert at script coverage and will be asked to review and grade a coverage with respect to the original script and a reference coverage according to the following guidelines.\n\n"
+        + guidelines_section
+        + "\n\nEXAMPLE COVERAGE REVIEW\n\n"
+        + json.dumps(example_review_section)
+        + "\n###\n\nREFERENCE COVERAGE\n\n###\n"
+        + json.dumps(human_coverage_section)
+        + "\n###\n\nReview and grade the following coverage with respect to the reference coverage.\n\nINPUT COVERAGE\n\n###\n"
+        + json.dumps(generated_coverage_section)
+        + "\n###"
+    )
+    messages = [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant designed to output JSON.",
+        },
+        {"role": "user", "content": prompt},
+    ]
+    return json.loads(
+        client.chat.completions.create(
+            model="gpt-4-1106-preview",
+            response_format={"type": "json_object"},
+            messages=messages,
+        )
+        .choices[0]
+        .message.content
+    )
+
+
 def evaluate_coverage(
     generated_coverage_path: str,
     human_coverage_path: str,
@@ -39,40 +75,6 @@ def evaluate_coverage(
 
     review = {}
 
-    def evaluate_section(
-        human_coverage_section,
-        generated_coverage_section,
-        example_review_section,
-        guidelines_section,
-    ):
-        prompt = (
-            "INSTRUCTIONS\n\nYou are an expert at script coverage and will be asked to review and grade a coverage with respect to the original script and a reference coverage according to the following guidelines.\n\n"
-            + guidelines_section
-            + "\n\nEXAMPLE COVERAGE REVIEW\n\n"
-            + json.dumps(example_review_section)
-            + "\n###\n\nREFERENCE COVERAGE\n\n###\n"
-            + json.dumps(human_coverage_section)
-            + "\n###\n\nReview and grade the following coverage with respect to the reference coverage.\n\nINPUT COVERAGE\n\n###\n"
-            + json.dumps(generated_coverage_section)
-            + "\n###"
-        )
-        messages = [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant designed to output JSON.",
-            },
-            {"role": "user", "content": prompt},
-        ]
-        return json.loads(
-            client.chat.completions.create(
-                model="gpt-4-1106-preview",
-                response_format={"type": "json_object"},
-                messages=messages,
-            )
-            .choices[0]
-            .message.content
-        )
-
     def recursion(
         human_coverage,
         generated_coverage,
@@ -84,15 +86,13 @@ def evaluate_coverage(
             if type(v) == str:
                 with open(v) as f:
                     guidelines = f.read()
-                try:
-                    review[k] = evaluate_section(
-                        human_coverage[k],
-                        generated_coverage[k],
-                        example_review[k],
-                        guidelines,
-                    )
-                except:
-                    breakpoint()
+                review[k] = evaluate_section(
+                    client,
+                    human_coverage[k],
+                    generated_coverage[k],
+                    example_review[k],
+                    guidelines,
+                )
             else:
                 review[k] = {}
                 recursion(
@@ -121,10 +121,10 @@ def evaluate_coverage(
         for k in section_to_guidelines["Evaluation"].keys()
     )
     review["Quantitative evaluation"] = {
-        "Metadata": f"{metadata_grade} / 5",
+        "Metadata": f"{metadata_grade} / 3",
         "Summary": f"{summary_grade} / 11",
         "Evaluation": f"{evaluation_grade} / 12",
-        "Total": f"{(metadata_grade + summary_grade + evaluation_grade)} / 28",
+        "Total": f"{(metadata_grade + summary_grade + evaluation_grade)} / 26",
     }
 
     with open(output_review_path, "w") as f:

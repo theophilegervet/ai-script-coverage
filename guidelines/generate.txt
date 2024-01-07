@@ -4,7 +4,6 @@ A coverage should contain the following sections in order in a JSON:
 1.b. Genre
 1.c. Period
 1.d. Location
-1.e. Budget
 2. Summary
 2.a. Logline
 2.b. Synopsis
@@ -24,8 +23,6 @@ A coverage should contain the following sections in order in a JSON:
 1.c. Period. When is the story taking place? Be as specific as possible.
 
 1.d. Location. Where is the story taking place? Which country and city? What specific places?
-
-1.e. Budget. Classify the estimated budget into one of Low (up to $5M), Medium ($5-50M), High (above $50M).
 
 2.a. Logline. The logline summarizes the arc of the Synopsis.
 - The Logline should be a single sentence. 
@@ -69,7 +66,7 @@ A coverage should contain the following sections in order in a JSON:
 
 3.e. Commerciality
 - Grade the script commerciality as Excellent, Good, Fair, or Poor.
-- Justify your grade by exhaustively answering the following questions: How marketable is the concept? How expensive will production be? Need for special effects? Famous cast?
+- Justify your grade by exhaustively answering the following questions: How marketable is the concept and to what demographic? Classify the estimated budget into one of Low (up to $5M), Medium ($5-50M), High (above $50M)? Do we need special effects? A famous cast?
 
 3.f. Recommendation. Categorize the script as
 - Recommend: 5% of scripts, at least two Excellent aspects of the script and an average of Good

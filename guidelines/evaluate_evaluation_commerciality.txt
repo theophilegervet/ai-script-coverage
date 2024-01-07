@@ -1,8 +1,8 @@
 A review should contain the following sections in order in a JSON. Be as exhaustive as possible.
 
 1. Comment. Does the comment answer the following questions? How do answers differ from the reference?
-1.a. How marketable is the concept?
-1.b. How expensive will production be? Need for special effects? Famous cast?
+1.a. How marketable is the concept and to what demographic?
+1.b. Classify the estimated budget into one of Low (up to $5M), Medium ($5-50M), High (above $50M)? Do we need special effects? A famous cast?
 
 2. Grade. Difference from the reference.
 

@@ -1,0 +1,1 @@
+Your output should be a JSON with the same structure as the input chunks. Remove any duplicate information while retaining all information. If the input grades differ, pick the most common.

@@ -1,19 +1,17 @@
 {
     "Quantitative evaluation": {
-        "Metadata": "3 / 5",
+        "Metadata": "2 / 3",
         "Summary": "3 / 11",
         "Evaluation": "4 / 12",
-        "Total": "10 / 28"
+        "Total": "9 / 26"
     },
     "Metadata": {
-        "Title":  "No difference.",
         "Genre": "Reference mentions 'Science Fiction' while input mentions 'Thriller'.",
         "Period": "No difference.",
         "Location": "No difference.",
-        "Budget": "Reference states 'Low' while input states 'Medium'.",
         "Quantitative evaluation": {
-            "Reason": "2 / 5 significant differences",
-            "Grade": 3
+            "Reason": "1 / 3 significant difference",
+            "Grade": 2
         }
     },
     "Summary": {

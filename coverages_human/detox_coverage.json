@@ -1,14 +1,16 @@
 {
     "Metadata": {
-        "Title": "DETOX",
         "Genre": [
             "Horror",
             "Mystery",
             "Science Fiction"
         ],
-        "Period": "Present day",
-        "Location": "California",
-        "Budget": "Low"
+        "Period": [
+            "Present day"
+        ],
+        "Location": [
+            "California"
+        ]
     },
     "Summary": {
         "Logline": "An overworked and grieving FDA employee joins her radiant friend at a mysterious “wellness retreat” in the middle of the desert, but soon, she suspects that the detox treatments are not what they seem.",
@@ -105,7 +107,7 @@
         },
         "Commerciality": {
             "Grade": "Excellent",
-            "Comment": "DETOX has excellent commercial potential with a zeitgeisty high-concept that is easy to sell and market to women and men between 17 and 30 (DETOX would likely be rated R for graphic violence). Furthermore, as a contained film with a small cast, DETOX has the potential to be a low-budget production."
+            "Comment": "DETOX has excellent commercial potential with a zeitgeisty high-concept that is easy to sell and market to women and men between 17 and 30 (DETOX would likely be rated R for graphic violence). Furthermore, as a contained film with a small cast, DETOX has the potential to be a Low budget production."
         },
         "Recommendation": "Consider"
     }

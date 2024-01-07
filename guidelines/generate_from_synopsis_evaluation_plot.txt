@@ -1,0 +1,8 @@
+A coverage should contain the following sections in order in a JSON:
+
+1. Grade the script commerciality as Excellent, Good, Fair, or Poor.
+
+2. Comment. Justify your grade by exhaustively answering the following questions: 
+- Is the Plot original or derivative? 
+- Does the pacing of plot events build effectively to one or more climaxes? 
+- Are there holes in the plot? 

@@ -1,0 +1,7 @@
+A coverage should contain the following sections in order in a JSON:
+
+1. Grade the script commerciality as Excellent, Good, Fair, or Poor.
+
+2. Comment. Justify your grade by exhaustively answering the following questions: 
+- How to characterize the Concept in reference to other scripts? For example: "Pretty Little Liers is Desperate Housewives with teens", "Fast and Furious is Point Break in the world of car racing". 
+- Is the Concept original or derivative?

@@ -1,0 +1,6 @@
+Your output should be a JSON with a single "data" key mapping to a string (the Logline). The Logline summarizes the arc of the Synopsis.
+- It should be a single sentence. 
+- The hero (Lead character) should be the subject of the sentence. 
+- It should paint a picture of the entire three-act journey 
+- It should not spoil any twists or surprises. 
+- It should not use characters' names.

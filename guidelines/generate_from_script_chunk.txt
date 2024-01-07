@@ -1,0 +1,37 @@
+A coverage should contain the following sections in order in a JSON:
+1. Metadata
+1.a. Period
+1.b. Location 
+2. Summary
+2.a. Synopsis
+2.b. Characters
+3. Evaluation
+3.a. Writing / Dialogues
+3.b. Characters
+
+1.a. Period. When is the story taking place? Be as specific as possible.
+
+1.b. Location. Where is the story taking place? Which country and city? What specific places?
+
+2.a. Synopsis. The Synopsis should be as brief as possible but give a clear and complete understanding of the story. 
+- The Synopsis should include every major plot point.
+- It should include every significant character.
+- It should include important and vivid details. 
+- It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
+- It should always use the omniscient third person and present tense. 
+- It should not get into a running commentary.
+- It should avoid any phrases that take the reader out of the story, i.e., "the story opens with," "we cut to," etc. 
+- Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified (subsequently, they should be in regular case).
+
+2.b. Characters. List characters.
+- Characters should be in order of importance (Lead, Supporting Lead,  Supporting). 
+- For each character, write a brief character description (name, importance, age, gender, ethnicity if specified). 
+- For minor characters, indicate their relationship to the lead character or other important roles. 
+
+3.c. Writing / Dialogues
+- Grade the script writing / dialogues as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: Are dialogues catchy, lifelike, funny, or in need of a punch-up? Do different characters have distinct voices? Does the tone suit the story's concept? Was the script too long? Was anything missing? 
+
+3.d. Characters
+- Grade the script characters as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: Is the hero realistic? Do they significantly change during the story? Can we root for them? Do supporting characters enrich the story? 

@@ -1,0 +1,7 @@
+A coverage should contain the following sections in order in a JSON:
+
+1. Grade the script commerciality as Excellent, Good, Fair, or Poor.
+
+2. Comment. Justify your grade by exhaustively answering the following questions: 
+- How marketable is the concept and to what demographic? 
+- Classify the estimated budget into one of Low (up to $5M), Medium ($5-50M), High (above $50M)? Do we need special effects? A famous cast?

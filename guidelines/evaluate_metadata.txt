@@ -1,4 +1,4 @@
-A review should contain the following sections in order in a JSON. 
+A review should contain the following sections in order in a JSON:
 
 1. Title. Difference from the reference.
 
@@ -9,3 +9,7 @@ A review should contain the following sections in order in a JSON.
 4. Location. Difference from the reference.
 
 5. Budget. Difference from the reference.
+
+6. Quantitative evaluation. 
+6.a. Reason for your grade.
+6.b. Grade. Count aspects for which there is a major difference from the input to the reference. Assign a grade from 0 (major differences everywhere) to 5 (no major differences).

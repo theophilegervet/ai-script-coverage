@@ -1,14 +1,20 @@
 {
-    "Coverage Rating": {
-        "Summary": "3 / 10. Missing major plot points and significant characters",
-        "Evaluation": "2 / 10. Significant grading differences with reference. Lots of missing commentary."
+    "Quantitative evaluation": {
+        "Metadata": "3 / 5",
+        "Summary": "3 / 11",
+        "Evaluation": "4 / 12",
+        "Total": "10 / 28"
     },
     "Metadata": {
         "Title":  "No difference.",
         "Genre": "Reference mentions 'Science Fiction' while input mentions 'Thriller'.",
         "Period": "No difference.",
         "Location": "No difference.",
-        "Budget": "Reference states 'Low' while input states 'Medium'."
+        "Budget": "Reference states 'Low' while input states 'Medium'.",
+        "Quantitative evaluation": {
+            "Reason": "2 / 5 significant differences",
+            "Grade": 3
+        }
     },
     "Summary": {
         "Logline": {
@@ -22,7 +28,11 @@
             "Difference from the reference": [
                 "Reference mentions the hero is overworked and grieving, while input characterizes her as bereaved.",
                 "Reference mentions the hero's name (Sam)."
-            ]
+            ],
+            "Quantitative evaluation": {
+                "Reason": "1 / 5 guidelines not respected | Minor differences",
+                "Grade": 1
+            }
         },
         "Synopsis": {
             "Guideline following": {
@@ -35,7 +45,7 @@
                 "Omniscient third person and present tense": "Yes.",
                 "Avoid running commentary": "Yes.",
                 "Avoid phrases taking reader out of story": "Yes.",
-                "Character names in all caps": "Some names appear in all caps initially, but the input doesn't consistently follow this guideline."
+                "Character names in all caps": "Some names appear in all caps initially (like Sam), but the input doesn't consistently follow this guideline, for example for Willa."
             },
             "False negatives": [
                 "FaceTime with Madison",
@@ -44,51 +54,89 @@
                 "Specific experiences like skin treatments and group therapy episodes",
                 "The escape and climax scenes are only briefly mentioned"
             ],
-            "False positives": []
+            "False positives": [],
+            "Quantitative evaluation": {
+                "Reason": "5 / 5 core guidelines not respected | Signicant false negatives | No false positives",
+                "Grade": 1
+            }
         },
         "Characters": {
             "Madison": "Missing gender and age present in reference.",
             "Nenita": "Missing ethnicity present in reference.",
             "The Lavenders": "Missing entirely.",
             "Eva": "Missing entirely.",
-            "Aubrey": "Missing entirely."
+            "Aubrey": "Missing entirely.",
+            "Quantitative evaluation": {
+                "Reason": "Missing some Supporting characters details and some entirely",
+                "Grade": 1
+            }
         }
     },
     "Evaluation": {
-        "Grading": {
-            "Concept": "Reference = Good | Input = Excellent",
-            "Plot / Structure": "Reference = Fair | Input = Excellent",
-            "Writing / Dialogues": "Reference = Fair | Input = Good",
-            "Characters": "Reference = Good | Input = Good",
-            "Commerciality": "Reference = Excellent | Input = Good"
-        },
-        "Comments": {
-            "Concept": {
+        "Concept": {
+            "Comment": {
                 "Reference to other plots": "Missing, while the reference mentions the disturbing “wellness center” used for eternal youth of A CURE FOR WELLNESS meets the themes of cult, trauma, and grief of MIDSOMMAR, with a female-led cast and blood witchcraft in the vein of SUSPIRIA.",
                 "Concept originality": "Missing, while the reference mentions the concept is original."
             },
-            "Plot / Structure": {
+            "Grade": "Reference = Good | Input = Excellent",
+            "Quantitative evaluation": {
+                "Reason": "1 / 3 grade difference | 2 / 2 comments missing or in disagreement",
+                "Grade": 0
+            }
+        },
+        "Plot / Structure": {
+            "Comment": {
                 "Plot originality": "Missing, while the reference mentions Detox feels like a horror B-movie lacking originality: almost as soon as we meet Willa, we expect her to sacrifice women to keep her radiant youth.",
-                "Climactic pacing": "Missing, while the reference mentions Detox effectively builds tension and conflict throughout the five days of the cure/film, up to a cathartic climax on Day 5.",
+                "Climactic pacing": "Present, both the input and the reference mention Detox effectively builds tension and conflict throughout the five days of the cure/film, up to a cathartic climax on Day 5.",
                 "Plot holes": "Missing."
             },
-            "Writing / Dialogues": {
+            "Grade": "Reference = Good | Input = Excellent",
+            "Quantitative evaluation": {
+                "Reason": "1 / 3 grade difference | 2 / 3 comments missing or in disagreement",
+                "Grade": 1
+            }
+        },
+        "Writing / Dialogues": {
+            "Comment": {
                 "Catchy, lifelike, funny": "Missing.",
                 "Distinct character voices": "Missing.",
                 "Appropriate tone": "Missing, while the reference mentions Detox does not fully leverage the comedic and satirical potential and mostly keeps a serious tone instead.",
                 "Length": "Missing."
             },
-            "Characters": {
-                "Realistic, personable hero": "Missing.",
-                "Rich supporting characters": "Missing, while the reference mentions most supporting characters feel like stereotypes with a one-dimensional reason they came to Evexia."
+            "Grade": "Reference = Fair | Input = Good",
+            "Quantitative evaluation": {
+                "Reason": "1 / 3 grade difference | 4 / 4 comments missing or in disagreement",
+                "Grade": 0
+            }
+        },
+        "Characters": {
+            "Comment": {
+                "Realistic, personable hero with a significant change": "Present, both the input and the reference mention Sam's character journey from victim to empowered survivor is compelling.",
+                "Rich supporting characters": "Present, both the input and the reference mention most supporting characters feel like stereotypes with a one-dimensional reason they came to Evexia."
             },
-            "Commerciality": {
+            "Grade": "Reference = Good | Input = Good",
+            "Quantitative evaluation": {
+                "Reason":  "0 / 3 grade difference | 0 / 2 comments missing or in disagreement",
+                "Grade": 2
+            }
+        },
+        "Commerciality": {
+            "Comment": {
                 "Marketability": "Missing, while the reference mentions Detox has excellent commercial potential with a zeitgeisty high-concept that is easy to sell and market to women and men between 17 and 30",
-                "Cost": "Missing, while the reference mentions that as a contained film with a small cast, Detox has the potential to be a low-budget production."
+                "Cost": "Disagreement, the input mentions Detox requires lots of expensive special effects while the reference mentions that Detox has the potential to be a low-budget production as a contained film with a small cast."
+            },
+            "Grade": "Reference = Excellent | Input = Fair",
+            "Quantitative evaluation": {
+                "Reason":  "2 / 3 grade difference | 2 / 2 comments missing or in disagreement",
+                "Grade": 0
             }
         },
         "Recommendation": {
-            "Difference": "Reference = Consider | Input = Recommend"
+            "Grade": "Reference = Consider | Input = Recommend",
+            "Quantitative evaluation": {
+                "Reason":  "1 / 2 grade difference",
+                "Grade": 1
+            }
         }
     }
 }

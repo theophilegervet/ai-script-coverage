@@ -1,6 +1,5 @@
 import json
 import os
-import pprint
 
 import fire
 from openai import OpenAI
@@ -13,10 +12,8 @@ def generate_coverage(
 ):
     with open("guidelines/generate.txt") as f:
         guidelines = f.read()
-
     with open(example_coverage_path) as f:
         example_coverage = json.dumps(json.load(f))
-
     with open(input_script_path) as f:
         input_script = f.read()
 

@@ -1,0 +1,13 @@
+A review should contain the following sections in order in a JSON. Be as exhaustive as possible.
+
+1. Comment. Does the comment answer the following questions? How do answers differ from the reference?
+1.a. Are dialogues catchy, lifelike, funny, or in need of a punch-up? 
+1.b. Do different characters have distinct voices?
+1.c. Does the tone suit the story's concept? 
+1.d. Was the script too long? Was anything missing? 
+
+2. Grade. Difference from the reference.
+
+3. Quantitative evaluation. 
+3.a. Reason for your grade.
+3.b. Grade. Assign a grade of 0 if the grade difference from the input to the reference is 2 or more on the scale (Poor, Fair, Good, Excellent), for example, Excellent to Fair or Recommend to Pass, or if all comments are missing or in disagreement with the reference. Assign a grade of 2 if the grade difference from the reference is 0 (for example, both Good), and 0 comments are missing or in disagreement. Assign a grade of 1 otherwise. 

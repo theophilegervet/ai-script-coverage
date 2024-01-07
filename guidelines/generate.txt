@@ -10,8 +10,12 @@ A coverage should contain the following sections in order in a JSON:
 2.b. Synopsis
 2.c. Characters
 3. Evaluation
-3.a. Grading / Comments
-3.b. Recommendation
+3.a. Concept
+3.b. Plot / Structure
+3.c. Writing / Dialogues
+3.d. Characters
+3.e. Commerciality
+3.f. Recommendation
 
 1.a. Title. The title of the script.
 
@@ -31,35 +35,43 @@ A coverage should contain the following sections in order in a JSON:
 - It should not use characters' names.
 
 2.b. Synopsis. The Synopsis should be as brief as possible but give a clear and complete understanding of the story. 
-- The Synopsis should include every major plot point, significant character, and important and vivid details. 
+- The Synopsis should include every major plot point.
+- It should include every significant character.
+- It should include important and vivid details. 
 - It should be about 500 words. 
-- It should follow the three-act journey. The first act usually establishes the main characters, their relationships, and the world they live in. Later in the first act, a catalyst occurs that confronts the main character (the Protagonist) with a call to action (desire, problem, goal, mission). The second act usually depicts the Protagonist's attempt to resolve the problem, only to find themselves in ever-worsening situations. They are not yet able to deal with the problem and must learn something. This is referred to as a character arc. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the main tensions of the story are brought to their most intense point, and the dramatic question is answered, making the Protagonist and other characters grow. 
-- It should avoid subplots unless they have a direct bearing on the main story and move the plot forward. 
+- It should follow the three-act journey. The first act usually establishes the main characters, their relationships, and the world they live in. Later in the first act, a catalyst occurs, that confronts the main character (the Protagonist) with a call to action (desire, problem, goal, mission). The second act usually depicts the Protagonist's attempt to resolve the problem, only to find themselves in ever worsening situations. They are not yet able to deal with the problem and must learn something. This is referred to as a character arc. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the main tensions of the story are brought to their most intense point and the dramatic question answered, making the Protagonist and other characters grow. 
+- It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
 - It should always use the omniscient third person and present tense. 
 - It should not get into a running commentary.
 - It should avoid any phrases that take the reader out of the story, i.e., "the story opens with," "we cut to," etc. 
 - Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified (subsequently, they should be in regular case).
-- When introducing secondary characters, they should be related to the lead character or other important roles.
 
 2.c. Characters. List characters.
 - Characters should be in order of importance (Lead, Supporting Lead,  Supporting). 
 - For each character, write a brief character description (name, importance, age, gender, ethnicity if specified). 
 - For minor characters, indicate their relationship to the lead character or other important roles. 
 
-3.a. Grading / Comments. 
-Grade the following aspects of the script as Excellent, Good, Fair, or Poor, justifying your grade by answering the following questions:
-- Concept: How to characterize the Concept in reference to other scripts? For example: "Pretty Little Liers is Desperate Housewives with teens", "Fast and Furious is Point Break in the world of car racing". Is the Concept original or derivative?
-- Plot / Structure: Is the Plot original or derivative? Does the pacing of plot events build effectively to one or more climaxes? Are there holes in the plot? 
-- Writing / Dialogues: Does writing serve the story? Was the script too long? Was anything missing? Are dialogues catchy, lifelike, funny, or in need of a punch-up? Does the tone suit the story's concept? Do different characters have distinct voices?
-- Characters: Is the hero realistic? Does he/she go through an emotional or physical change during the course of the story? Can we root for them? Do supporting characters enrich the story? Will actors be attracted to playing characters?
-- Commerciality: Is this going to be commercially successful? What are the weakest aspects of this material? Are these weaknesses significant? Pay special attention to current or growing fads as well as trends that have peaked. 
+3.a. Concept.
+- Grade the script concept as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: How to characterize the Concept in reference to other scripts? For example: "Pretty Little Liers is Desperate Housewives with teens", "Fast and Furious is Point Break in the world of car racing". Is the Concept original or derivative?
 
-Justify each grade with a comment respecting the following guidelines:
-- They should avoid the subjective, i.e., "I think the script is boring," but instead speak generally, i.e., "The injection of higher stakes could keep the audience's interest alive through the slow third act." 
-- Assertions should be justified. Avoid saying something isn't working; indicate why it isn't working. 
-- If the Recommendation is Consider or Recommend, the Comments should contain ideas on how the script can be improved. 
+3.b. Plot / Structure
+- Grade the script plot / structure as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: Is the Plot original or derivative? Does the pacing of plot events build effectively to one or more climaxes? Are there holes in the plot? 
 
-3.b. Recommendation. Categorize the script as
+3.c. Writing / Dialogues
+- Grade the script writing / dialogues as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: Are dialogues catchy, lifelike, funny, or in need of a punch-up? Do different characters have distinct voices? Does the tone suit the story's concept? Was the script too long? Was anything missing? 
+
+3.d. Characters
+- Grade the script characters as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: Is the hero realistic? Do they significantly change during the story? Can we root for them? Do supporting characters enrich the story? 
+
+3.e. Commerciality
+- Grade the script commerciality as Excellent, Good, Fair, or Poor.
+- Justify your grade by exhaustively answering the following questions: How marketable is the concept? How expensive will production be? Need for special effects? Famous cast?
+
+3.f. Recommendation. Categorize the script as
 - Recommend: 5% of scripts, at least two Excellent aspects of the script and an average of Good
 - Consider: 20% of scripts, an average of Good
 - or Pass: 75% of scripts, an average of Fair or Poor

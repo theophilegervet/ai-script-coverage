@@ -1,0 +1,14 @@
+A review should contain the following sections in order in a JSON. Be as exhaustive as possible.
+
+1. Guideline following. 
+1.a. The Logline should be a single sentence. 
+1.b. The hero (Lead character) should be the sentence's subject. 
+1.c. It should paint a picture of the entire three-act journey. 
+1.d. It should not spoil any twists or surprises. 
+1.e. It should not use characters' names. 
+
+2. Difference from the reference.
+
+3. Quantitative evaluation. 
+3.a. Reason for your grade.
+3.b. Grade. Assign a grade from 0 to 2. Assign a grade of 0 if the input fails to follow 2 or more guidelines or if the input has multiple significant differences from the reference. Assign a grade of 2 if the input follows all guidelines and presents no significant differences from the reference. Assign a grade of 1 otherwise. 

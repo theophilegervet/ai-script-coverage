@@ -1,6 +1,5 @@
 import json
 import os
-import pprint
 
 import fire
 from openai import OpenAI
@@ -12,42 +11,49 @@ def evaluate_coverage(
     output_review_path: str,
     example_review_path: str = "reviews_human/detox_review.json",
 ):
-    with open("guidelines/evaluate_metadata.txt") as f:
-        evaluate_metadata_guidelines = f.read()
-    with open("guidelines/evaluate_summary.txt") as f:
-        evaluate_summary_guidelines = f.read()
-    with open("guidelines/evaluate_evaluation.txt") as f:
-        evaluate_evaluation_guidelines = f.read()
-
     with open(generated_coverage_path) as f:
         generated_coverage = json.load(f)
-
     with open(human_coverage_path) as f:
         human_coverage = json.load(f)
-
     with open(example_review_path) as f:
         example_review = json.load(f)
 
     section_to_guidelines = {
-        "Metadata": evaluate_metadata_guidelines,
-        "Summary": evaluate_summary_guidelines,
-        "Evaluation": evaluate_evaluation_guidelines,
+        "Metadata": "guidelines/evaluate_metadata.txt",
+        "Summary": {
+            "Logline": "guidelines/evaluate_summary_logline.txt",
+            "Synopsis": "guidelines/evaluate_summary_synopsis.txt",
+            "Characters": "guidelines/evaluate_summary_characters.txt",
+        },
+        "Evaluation": {
+            "Concept": "guidelines/evaluate_evaluation_concept.txt",
+            "Plot / Structure": "guidelines/evaluate_evaluation_plot.txt",
+            "Writing / Dialogues": "guidelines/evaluate_evaluation_dialogues.txt",
+            "Characters": "guidelines/evaluate_evaluation_characters.txt",
+            "Commerciality": "guidelines/evaluate_evaluation_commerciality.txt",
+            "Recommendation": "guidelines/evaluate_evaluation_recommendation.txt",
+        },
     }
 
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     review = {}
 
-    for section, guidelines in section_to_guidelines.items():
+    def evaluate_section(
+        human_coverage_section,
+        generated_coverage_section,
+        example_review_section,
+        guidelines_section,
+    ):
         prompt = (
             "INSTRUCTIONS\n\nYou are an expert at script coverage and will be asked to review and grade a coverage with respect to the original script and a reference coverage according to the following guidelines.\n\n"
-            + guidelines
+            + guidelines_section
             + "\n\nEXAMPLE COVERAGE REVIEW\n\n"
-            + json.dumps(example_review[section])
+            + json.dumps(example_review_section)
             + "\n###\n\nREFERENCE COVERAGE\n\n###\n"
-            + json.dumps(human_coverage[section])
+            + json.dumps(human_coverage_section)
             + "\n###\n\nReview and grade the following coverage with respect to the reference coverage.\n\nINPUT COVERAGE\n\n###\n"
-            + json.dumps(generated_coverage[section])
+            + json.dumps(generated_coverage_section)
             + "\n###"
         )
         messages = [
@@ -57,8 +63,7 @@ def evaluate_coverage(
             },
             {"role": "user", "content": prompt},
         ]
-
-        response = json.loads(
+        return json.loads(
             client.chat.completions.create(
                 model="gpt-4-1106-preview",
                 response_format={"type": "json_object"},
@@ -67,7 +72,60 @@ def evaluate_coverage(
             .choices[0]
             .message.content
         )
-        review[section] = response
+
+    def recursion(
+        human_coverage,
+        generated_coverage,
+        example_review,
+        review,
+        section_to_guidelines,
+    ):
+        for k, v in section_to_guidelines.items():
+            if type(v) == str:
+                with open(v) as f:
+                    guidelines = f.read()
+                try:
+                    review[k] = evaluate_section(
+                        human_coverage[k],
+                        generated_coverage[k],
+                        example_review[k],
+                        guidelines,
+                    )
+                except:
+                    breakpoint()
+            else:
+                review[k] = {}
+                recursion(
+                    human_coverage[k],
+                    generated_coverage[k],
+                    example_review[k],
+                    review[k],
+                    section_to_guidelines[k],
+                )
+
+    recursion(
+        human_coverage,
+        generated_coverage,
+        example_review,
+        review,
+        section_to_guidelines,
+    )
+
+    metadata_grade = review["Metadata"]["Quantitative evaluation"]["Grade"]
+    summary_grade = sum(
+        review["Summary"][k]["Quantitative evaluation"]["Grade"]
+        for k in section_to_guidelines["Summary"].keys()
+    )
+    evaluation_grade = sum(
+        review["Evaluation"][k]["Quantitative evaluation"]["Grade"]
+        for k in section_to_guidelines["Evaluation"].keys()
+    )
+    review["Quantitative evaluation"] = {
+        "Metadata": f"{metadata_grade} / 5",
+        "Summary": f"{summary_grade} / 11",
+        "Evaluation": f"{evaluation_grade} / 12",
+        "Total": f"{(metadata_grade + summary_grade + evaluation_grade)} / 28",
+    }
 
     with open(output_review_path, "w") as f:
         json.dump(review, f, indent=4)

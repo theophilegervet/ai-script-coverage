@@ -1,0 +1,21 @@
+A review should contain the following sections in order in a JSON. Be as exhaustive as possible.
+
+1. Guideline following. 
+1.a. The Synopsis should include every major plot point.
+1.b. It should include every significant character.
+1.c. It should include important and vivid details. 
+1.d. It should be about 500 words. 
+1.e. It should follow the three-act journey. The first act usually establishes the main characters, their relationships, and the world they live in. Later in the first act, a catalyst occurs, that confronts the main character (the Protagonist) with a call to action (desire, problem, goal, mission). The second act usually depicts the Protagonist's attempt to resolve the problem, only to find themselves in ever worsening situations. They are not yet able to deal with the problem and must learn something. This is referred to as a character arc. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the main tensions of the story are brought to their most intense point and the dramatic question answered, making the Protagonist and other characters grow. 
+1.f. It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
+1.g. It should always use the omniscient third person and present tense. 
+1.h. It should not get into a running commentary.
+1.i. It should avoid any phrases that take the reader out of the story, i.e., "the story opens with," "we cut to," etc. 
+1.j. Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified (subsequently, they should be in regular case).
+
+2. False negatives. List any elements present in the reference and missing from the input. 
+
+3. False positives. List any elements present in the reference and missing from the input. 
+
+4. Quantitative evaluation. 
+4.a. Reason for your grade.
+4.b. Grade. Assign a grade from 0 to 7. Count the number of respected guidelines out of the first 5 (the core guidelines). Assign a grade of 7 if all 5 core guidelines are respected and the input contains no significant false negatives or false positives. Otherwise, substract 1 from 7 per core guideline not respected, substract 1 if there are significant false negatives, and substract 1 if there are significant false negatives.

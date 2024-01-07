@@ -1,0 +1,7 @@
+A review should contain the following sections in order in a JSON. Be as exhaustive as possible.
+
+1. Grade. Difference from the reference.
+
+2. Quantitative evaluation. 
+2.a. Reason for your grade.
+2.b. Grade. Assign a grade of 0 if the grade difference from the input to the reference is 2 on the scale (Pass, Consider, Recommend), for example, Pass to Recommend. Assign a grade of 2 if the grade difference from the reference is 0 (for example, both Good). Assign a grade of 1 otherwise. 

@@ -1,0 +1,7 @@
+A review should contain the following sections in order in a JSON. Be as exhaustive as possible.
+
+1. Difference from the reference.
+
+2. Quantitative evaluation. 
+2.a. Reason for your grade.
+2.b. Grade. Assign a grade from 0 to 2. Assign a grade of 0 if the input is missing Lead characters entirely or important information about them. Assign a grade of 2 if the input contains all characters and most information about them. Assign a grade of 1 otherwise (for example, if missing some Supporting characters).

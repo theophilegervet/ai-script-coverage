@@ -11,7 +11,7 @@ A coverage should contain the following sections in order in a JSON:
 
 1.a. Period. When is the story taking place? Be as specific as possible.
 
-1.b. Location. Where is the story taking place? Which country and city? What specific places?
+1.b. Location. In which country and city is the story taking place (if specified)? 
 
 2.a. Synopsis. The Synopsis should be as brief as possible but give a clear and complete understanding of the story. 
 - The Synopsis should include every major plot point.

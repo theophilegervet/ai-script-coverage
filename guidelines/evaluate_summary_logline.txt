@@ -3,7 +3,7 @@ A review should contain the following sections in order in a JSON. Be as exhaust
 1. Guideline following. 
 1.a. The Logline should be a single sentence. 
 1.b. The hero (Lead character) should be the sentence's subject. 
-1.c. It should paint a picture of the entire three-act journey. 
+1.c. It should paint a picture of the entire three-act journey, specifically the call to action, the hero's attempt to resolve the problem, and how they grow from the journey.
 1.d. It should not spoil any twists or surprises. 
 1.e. It should not use characters' names. 
 

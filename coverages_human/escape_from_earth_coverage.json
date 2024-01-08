@@ -1,0 +1,77 @@
+{
+    "Metadata": {
+        "Genre": [
+            "Drama",
+            "Science Fiction",
+            "Romance"
+        ],
+        "Period": [
+            "2273"
+        ],
+        "Location": [
+            "TODO"
+        ]
+    },
+    "Summary": {
+        "Logline": "In 2273, the world is a post-apocalyptic dystopia where an elite minority entertains itself in orbit while the rest have a life expectancy of 37 on Earth. A man and a female clone team up to escape their Earth while human cops and clones try to kill them.",
+        "Synopsis": "The world is a post-apocalyptic dystopia in 2273. Life expectancy is 37 years on Earth and 135 years in orbit, where an elite minority entertains itself. Humans and clones who break the rules (like trying to escape Earth) are hunted and killed by STALKERS (genetically modified clawed humanoids) on live TV. On Earth, CLOSE, a human outlaw, teams up with MEC, the first clone to attempt escape. “MEC” stands for Maintenance Engineer Courtesan: she is a clone whose duty ranged from ore-ship maintenance to sexual pleasure. She is a genetically engineered male fantasy, but Close refuses to have sex with her as he rightfully feels she does not want to. They have each other's back and bond as they survive through the desert and flee, manipulate, and fight their way through stalkers and HUMAN COPS up to the orbit. In the orbital habitat, they teach freedom to TWO MEC CLONES and steal a spaceship to go back to 2021 for the clones to live like free humans without running from the state. They land in the Tennesse river basin in 2021 and gun down HUNTER CLONES at their pursuit, but Mec and Close get deadly injured in the fight. They love each other's but do not say it and transfer their conscience into clone embryos in their ship. It seems to work!",
+        "Characters": [
+            {
+                "Name": "Close",
+                "Importance": "Lead",
+                "Gender": "Male",
+                "Description": "Human outlaw teaming up with MEC."
+            },
+            {
+                "Name": "MEC",
+                "Importance": "Lead",
+                "Gender": "Female",
+                "Description": "First clone to attempt escape from Earth."
+            },
+            {
+                "Name": "STALKERS",
+                "Importance": "Supporting",
+                "Description": "Genetically modified humanoids who hunt rule-breakers."
+            },
+            {
+                "Name": "HUMAN COPS",
+                "Importance": "Supporting",
+                "Description": "Enforcers trying to prevent escape from Earth."
+            },
+            {
+                "Name": "TWO MEC CLONES",
+                "Importance": "Supporting",
+                "Gender": "Female",
+                "Description": "Clones in the orbital habitat liberated by Close and MEC."
+            },
+            {
+                "Name": "HUNTER CLONES",
+                "Importance": "Supporting",
+                "Description": "Clones pursuing Close and MEC in 2021."
+            }
+        ]
+    },
+    "Evaluation": {
+        "Concept": {
+            "Grade": "Fair",
+            "Comment": "This script is a mix between BLADE RUNNER and ELYSIUM but suffers from endless exposition and little character development."
+        },
+        "Plot / Structure": {
+            "Grade": "Fair",
+            "Comment": "The plot is convoluted with time travel and rebirth elements that feel over the top. The structure lacks a strong antagonist."
+        },
+        "Writing / Dialogues": {
+            "Grade": "Fair",
+            "Comment": "The dialogue is mechanical and often serves to explain the complex world, preventing emotional character development."
+        },
+        "Characters": {
+            "Grade": "Poor",
+            "Comment": "Character development is weak, especially for the clones. The relationship between Mec and Close is underdeveloped."
+        },
+        "Commerciality": {
+            "Grade": "Poor",
+            "Comment": ""
+        },
+        "Recommendation": "Pass"
+    }
+}

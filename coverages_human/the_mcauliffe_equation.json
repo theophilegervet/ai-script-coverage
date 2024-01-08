@@ -1,0 +1,93 @@
+{
+    "Metadata": {
+        "Genre": [
+            "Action",
+            "Young Adults",
+            "Science Fiction"
+        ],
+        "Period": [
+            "Present day"
+        ],
+        "Location": [
+            "TODO"
+        ]
+    },
+    "Summary": {
+        "Logline": "The lives of two painfully awkward teenage 'misfits' are changed forever when one vanishes and reappears from a wormhole as a 40-years-old futuristic-soldier. They set out to rewrite the future to save the world from aliens, but alien assassins are after them.",
+        "Synopsis": "DANIEL MCAULIFFE (40's) accidentally creates an equation that causes a wormhole. The previous day, Geeky “misfits” JESSICA JESSIE CHASE (14) and LUCAS MOKE (14) showcase their short action sci-fi film in class to appear cooler, but it has the reverse effect. Afterward, Lucas vanishes into thin air, and comes back as a futuristic-soldier (40's, THE ROCK). He explains to Jessie that he was sent into the future and fought a war for 20 years against the Klathorians, aliens who arrived through Mcauliffe's wormhole and wiped out the human race. Lucas receives a holographic message from Old Mcauliffe (80): they must stop him from doing the equation to rewrite the future. They go to Lucas' home to locate Mcauliffe on his computer. Lucas passes for Jessie's cousin but hugs his MOM (40), and she flirts with him. In Jessie's bedroom, a LUGORC - a huge half-wolf half-ant genetically designed Klathorian assassin - attacks them and accidentally kills itself, melting in milk. They spot two Lugorcs in Central Park and kill them. With little time, they seek the help of school mate FREDDY BURNS (16), who locates Mcauliffe in the highly secured Westford laboratories. Lucas flirts with the teacher MADISON WU (30's) to take her Westford pass until a Lugorc attacks them. After a difficult fight, Madison is on board with them and they stop Daniel from doing the equation. But Daniel explains their universe will slowly collapse until he sends Lucas back through a wormhole. The latter erases Daniel's recent memory for him to make the equation mistake this night. Back at Jessie's, the body of the first Lugorc disappeared and replicated near the lab. Lucas, Jessie, Madison, Freddy, and “misfits” schoolmates CAMERON PIKE (15) and Goth PARKER BLUE (14) face the Lugorcs with milk bombs, and milk filled water guns. Lucas weakens as the universe collapses. Jessie takes on his armor to face Lugorcs and an alpha one which takes the appearance of a naked Lucas. Daniel creates the wormhole and unexpectedly kills the Klathorians who arrive by it. Lucas leaves through the wormhole, and the world stops collapsing, but Lucas went in an alternate universe. Daniel and Jessie take a wormhole to a hazard sky-ship driven by Lucas in a lightning storm. Lucas banks down the ship into the storm clouds in an attempt to leave this universe.",
+        "Characters": [
+            {
+                "Name": "Daniel McAuliffe",
+                "Importance": "Supporting",
+                "Age": "40s",
+                "Gender": "male",
+                "Description": "Creator of the equation causing the wormhole."
+            },
+            {
+                "Name": "Jessica 'Jessie' Chase",
+                "Importance": "Lead",
+                "Age": "14",
+                "Gender": "female",
+                "Description": "One of the geeky 'misfits', protagonist."
+            },
+            {
+                "Name": "Lucas Moke",
+                "Importance": "Lead",
+                "Age": "14/40s",
+                "Gender": "male",
+                "Description": "Transforms into a futuristic soldier after vanishing."
+            },
+            {
+                "Name": "Madison Wu",
+                "Importance": "Supporting",
+                "Age": "30s",
+                "Gender": "female",
+                "Description": "Teacher who joins the adventure."
+            },
+            {
+                "Name": "Freddy Burns",
+                "Importance": "Supporting",
+                "Age": "16",
+                "Gender": "male",
+                "Description": "Schoolmate who helps locate McAuliffe."
+            },
+            {
+                "Name": "Cameron Pike",
+                "Importance": "Supporting",
+                "Age": "15",
+                "Gender": "male",
+                "Description": "Schoolmate involved in the final battle."
+            },
+            {
+                "Name": "Parker Blue",
+                "Importance": "Supporting",
+                "Age": "14",
+                "Gender": "male",
+                "Description": "Goth schoolmate involved in the final battle."
+            }
+        ]
+    },
+    "Evaluation": {
+        "Concept": {
+            "Grade": "Good",
+            "Comment": "Back to the Future meets Stranger Things in this entertaining and humorous sci-fi adventure. The McAuliffe Equation effectively intertwines fun and action."
+        },
+        "Plot / Structure": {
+            "Grade": "Good",
+            "Comment": "The structure effectively builds up to an 'epic final battle'. The plot, however, sometimes feels mechanical and could benefit from more complexity in secondary characters."
+        },
+        "Writing / Dialogues": {
+            "Grade": "Good",
+            "Comment": "Witty dialogue and visual humor, intertwining irony about the action-hero archetype with face value badass moments. Nevertheless, some characters often unnecessarily declare themselves as geeks."
+        },
+        "Characters": {
+            "Grade": "Good",
+            "Comment": "Central characters are complex and well-developed, but secondary characters like Cameron, Parker, and others feel generic and one-dimensional."
+        },
+        "Commerciality": {
+            "Grade": "TODO",
+            "Comment": ""
+        },
+        "Recommendation": "Consider"
+    }
+}

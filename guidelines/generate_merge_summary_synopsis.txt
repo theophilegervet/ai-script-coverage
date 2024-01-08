@@ -1,6 +1,6 @@
 Your output should be a JSON with a single "data" key mapping to a string (the Synopsis) of about 500 words.
 
-The Synopsis should follow the three-act journey. The first act usually establishes the main characters, their relationships, and the world they live in. Later in the first act, a catalyst occurs, that confronts the main character (the Protagonist) with a call to action (desire, problem, goal, mission). The second act usually depicts the Protagonist's attempt to resolve the problem, only to find themselves in ever worsening situations. They are not yet able to deal with the problem and must learn something. This is referred to as a character arc. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the main tensions of the story are brought to their most intense point and the dramatic question answered, making the Protagonist and other characters grow. 
+The Synopsis should give a clear and complete understanding of the story. The Synopsis should follow the three-act journey. The first act usually establishes the main characters - starting with the hero and establishing other characters in relationship with them - and their world. Later in the first act, a catalyst occurs that confronts the hero with a call to action (desire, problem, goal, mission). The second act usually depicts the hero's attempt to resolve the problem, only to find themselves in ever-worsening situations. They cannot yet deal with the problem and must learn something. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the central tensions of the story are brought to their most intense point, and the dramatic question is answered, making the hero and other characters grow. 
 
 In addition, make sure to follow the following guidelines:
 - The Synopsis should include every major plot point.
@@ -9,5 +9,5 @@ In addition, make sure to follow the following guidelines:
 - It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
 - It should always use the omniscient third person and present tense. 
 - It should not get into a running commentary.
-- It should avoid any phrases that take the reader out of the story, i.e., "the story opens with," "we cut to," etc. 
-- Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified (subsequently, they should be in regular case).
+- It should avoid any phrases that take the reader out of the story, i.e., "the story opens with", "the story delves into", "we cut to", etc. 
+- Character names should appear in all caps the first time they are introduced along with their age and ethnicity if specified in parenthesis (e.g., "SAM (43, female)"). Subsequently, they should be in regular case. 

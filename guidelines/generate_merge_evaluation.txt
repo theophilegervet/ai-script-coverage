@@ -1,1 +1,1 @@
-Your output should be a JSON with the same structure as the input chunks. Remove any duplicate information while retaining all information. If the input grades differ, pick the most common.
+Your output should be a JSON with the same structure as the input chunks. Remove any duplicate information while retaining all important information. If the input grades differ, pick the most common. The Comment for each aspect should be around 100 words (max 150 if needed).

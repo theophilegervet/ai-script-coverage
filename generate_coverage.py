@@ -173,9 +173,9 @@ def generate_recommendation(evaluation):
     grade_to_score = {"Poor": 0, "Fair": 1, "Good": 2, "Excellent": 3}
     scores = [grade_to_score[v["Grade"]] for v in evaluation.values()]
     average_score = sum(scores) / len(scores)
-    if average_score >= (3 * 2 + 2 * 3) / 5:
+    if average_score >= (2 * 3 + 3 * 2) / 5:
         return "Recommend"
-    elif average_score >= 2:
+    elif average_score >= (4 * 2 + 1) / 5:
         return "Consider"
     else:
         return "Pass"

@@ -8,4 +8,4 @@ A review should contain the following sections in order in a JSON:
 
 4. Quantitative evaluation. 
 4.a. Reason for your grade.
-4.b. Grade. Count aspects for which there is a major difference from the input to the reference (for example, "Present, 1995, and Late 1980s" vs "Late 1980s to present day" does not count as a major difference). Assign a grade from 0 (major differences everywhere) to 4 (no major differences).
+4.b. Grade. Count aspects for which there is a major difference from the input to the reference (for example, "Present, 1995, and Late 1980s" vs "Late 1980s to present day" does not count as a major difference). Assign a grade from 0 (major differences everywhere) to 3 (no major differences).

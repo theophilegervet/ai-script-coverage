@@ -1,0 +1,11 @@
+The Synopsis should give a clear and complete understanding of the story. 
+
+- Structure the Synopsis in three paragraphs, one for each act of the three-act journey. The first act usually establishes the main characters - starting with the hero and establishing other characters in relationship with them - and their world. Later in the first act, a catalyst occurs that confronts the hero with a call to action (desire, problem, goal, mission). The second act usually depicts the hero's attempt to resolve the problem, only to find themselves in ever-worsening situations. They cannot yet deal with the problem and must learn something. The third act features the resolution of the story and its subplots. The climax is the scene or sequence in which the central tensions of the story are brought to their most intense point, and the dramatic question is answered, making the hero and other characters grow. 
+- The Synopsis should include every major plot point in the order they appear in scenes.
+- It should make it clear which plot points happen in the present and which are flashbacks.
+- It should include every significant character. Character names should appear in all caps the first time they are introduced along with their age in parenthesis (e.g., JOHN DOE (42)). Subsequently, they should be in regular case.
+- It should include important and vivid details. 
+- It should avoid sub plots unless they have a direct bearing on the main story and move the plot forward. 
+- It should always use the omniscient third person and present tense. 
+- It should stick to the plot and avoid commenting on it.
+- It should avoid any phrases that take the reader out of the story, i.e., "the story opens with", "the story delves into", "we cut to", etc.

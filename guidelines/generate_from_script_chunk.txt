@@ -9,6 +9,28 @@ A coverage should contain the following sections in order in a JSON:
 3.a. Writing / Dialogues
 3.b. Characters
 
+It should take this form with values filled according to guidelines below:
+{
+  "Metadata": {
+    "Period": [],
+    "Location": []
+  },
+  "Summary": {
+    "Synopsis": "",
+    "Characters": []
+  },
+  "Evaluation": {
+    "Writing / Dialogues": {
+      "Grade": "",
+      "Reason": ""
+    },
+    "Characters": {
+      "Grade": "",
+      "Reason": ""
+    }
+  }
+}
+
 1.a. Period. When is the story taking place? Be as specific as possible.
 
 1.b. Location. In which country and city is the story taking place (if specified)? 

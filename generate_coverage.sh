@@ -3,7 +3,7 @@
 script_dir="scripts"
 
 # script_names=($(ls $script_dir | sed 's/\.txt$//'))
-script_names=("escape_from_earth" "exitus" "isle_of_man" "the_mcauliffe equation")
+script_names=("exitus")
 
 for name in "${script_names[@]}"; do
     python generate_coverage.py \

@@ -1,0 +1,67 @@
+{
+    "Metadata": {
+        "Period": [
+            "Present day"
+        ],
+        "Location": [
+            "Los Angeles, California"
+        ]
+    },
+    "Summary": {
+        "Synopsis": "In Los Angeles, Robbie, a man in a hospice, decides to try new drugs suggested by his sister Wendy, a doctor, despite his brain atrophy. Their other sister, Cher, struggles with expressing her feelings and coming to terms with her partner Sybil and her family's dysfunctional dynamics, especially surrounding their father Arnie's hospitalization and choices about his medical care. Arnie's care sparks conflict among the siblings, particularly between Samuel, who demands adherence to Jewish customs, and the rest of the family, who challenge his orthodox methods. In the midst of familial turmoil, including Robbie's health decline and conflicts over Arnie's medical decisions, Cher confronts her fear of intimacy and ultimately seeks to reconnect with Sybil. The story culminates in revelations of family secrets, the strengthening of bonds, and acceptance of identity as they navigate grief, love, and dysfunctional relationships.",
+        "Characters": [
+            {
+                "Name": "Robbie",
+                "Importance": "Lead",
+                "Gender": "male",
+                "Description": "Hospitalized with brain atrophy, contemplating new drug treatments."
+            },
+            {
+                "Name": "Cher",
+                "Importance": "Lead",
+                "Gender": "female",
+                "Description": "Struggles with expressing feelings and family conflicts."
+            },
+            {
+                "Name": "Sybil",
+                "Importance": "Lead",
+                "Gender": "female",
+                "Description": "Cher's partner who she has difficulties opening up to."
+            },
+            {
+                "Name": "Wendy",
+                "Importance": "Supporting Lead",
+                "Gender": "female",
+                "Description": "Doctor and sister to Robbie, offers medical advice for Robbie's condition."
+            },
+            {
+                "Name": "Samuel",
+                "Importance": "Supporting Lead",
+                "Gender": "male",
+                "Description": "Strives for orthodox Jewish observances, particularly about Arnie's care."
+            },
+            {
+                "Name": "Arnie",
+                "Importance": "Supporting",
+                "Gender": "male",
+                "Description": "Father of the family, hospitalized and at the center of a care debate."
+            },
+            {
+                "Name": "Francie",
+                "Importance": "Supporting",
+                "Gender": "female",
+                "Description": "Part of the siblings, dealing with her father's illness and family conflict."
+            }
+        ]
+    },
+    "Evaluation": {
+        "Writing / Dialogues": {
+            "Grade": "Good",
+            "Reason": "The dialogues effectively portray the multifaceted and challenging relationships within a family coping with sickness and entrenched issues. The distinct voices of each character, from Wendy's professional concern to Samuel's religious conviction, contribute richness to the story. Cher\u2019s dialogue and interactions highlight her internal struggle with vulnerability, an emotional core to the narrative. The script manages to address complex themes such as mortality, acceptance, and love in a nuanced manner. While it successfully captures the tensions and tenderness within a dysfunctional family, perhaps additional room for levity could have alleviated the weightiness of the themes explored."
+        },
+        "Characters": {
+            "Grade": "Good",
+            "Reason": "The characters are authentic, well-developed, and their interactions reflect deep-seated family dynamics. Robbie's vulnerability and openness to treatment provides a stark contrast to the family's otherwise discordant handling of his and Arnie's conditions. Cher\u2019s evolution throughout the narrative as she grapples with her resistance to intimacy and family obligations makes her a relatable and engaging lead. Samuel\u2019s strict adherence to religious principles in the face of familial opposition encapsulates the tension between tradition and personal values. The supporting characters, namely Wendy and Francie, add layers to the narrative by revealing different facets of the family\u2019s complexity. The narrative would benefit from deeper exploration of each sibling's background to further enrich the story and clarify their motivations."
+        }
+    }
+}

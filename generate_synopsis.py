@@ -120,6 +120,6 @@ if __name__ == "__main__":
     """
     python generate_synopsis.py \
         --input_script_path scripts/being_silver.txt \
-        --output_synopsis_path synopsis_generated/being_silver_synopsis.txt
+        --output_synopsis_path synopses_generated/being_silver_synopsis.txt
     """
     fire.Fire(generate_synopsis)

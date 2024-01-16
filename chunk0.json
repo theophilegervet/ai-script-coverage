@@ -1,0 +1,86 @@
+{
+    "Metadata": {
+        "Period": [
+            "Late 1980s",
+            "Present day"
+        ],
+        "Location": [
+            "Bloomfield Hills, Michigan",
+            "Burbank, California",
+            "Washington, D.C.",
+            "New York",
+            "West Hollywood"
+        ]
+    },
+    "Summary": {
+        "Synopsis": "The film begins with nostalgic home movie scenes of the SILVER FAMILY during the late 1980s. Arnie seems to dominate family dynamics with PHYLLIS as the overwhelmed mother. In the present day, the family has disbanded, each coping with adulthood in their own way. CHER SILVER, now 35, directs a commercial in Burbank, constantly challenged by work and her relationship with her mother and girlfriend, SYBIL. PHYLLIS, now 71 and still in Michigan, remains caught in the past, now jeopardizing Cher\u2019s personal collectibles while discussing her daughter VICTORIA's pending birth. Victoria runs the family business while resting due to pregnancy complications. Meanwhile, siblings FRANCIE, dealing with mystical existential crises, and SAMUEL, embracing Jewish Orthodoxy in New York, show the divergent paths the siblings have taken. ROBBIE struggles with his mental health as a radio host. The present crisis culminates when Arnie's health deteriorates, prompting the family to reconvene in Michigan to deal with his life-support decision and reconcile their fragmented relationships.",
+        "Characters": [
+            {
+                "Name": "Phyllis Silver",
+                "Importance": "Lead",
+                "Age": "71",
+                "Gender": "female",
+                "Description": "Matriarch, overwhelmed in the past, present-day brings family collectibles into play."
+            },
+            {
+                "Name": "Cher Silver",
+                "Importance": "Supporting Lead",
+                "Age": "35",
+                "Gender": "female",
+                "Description": "Commercial director in Burbank, troubled, seeks approval and love."
+            },
+            {
+                "Name": "Victoria Silver-Goldman",
+                "Importance": "Supporting",
+                "Age": "31",
+                "Gender": "female",
+                "Description": "Pregnant, running family business, pressured."
+            },
+            {
+                "Name": "Francie Silver",
+                "Importance": "Supporting",
+                "Age": "42",
+                "Gender": "female",
+                "Description": "Consults Nordic Runes, conflicted, haunted by family secrets."
+            },
+            {
+                "Name": "Samuel Silver",
+                "Importance": "Supporting",
+                "Age": "41",
+                "Gender": "male",
+                "Description": "Orthodox Jew, challenges modern medicine ethics, avoids intimacy."
+            },
+            {
+                "Name": "Robbie Silver",
+                "Importance": "Supporting",
+                "Age": "39",
+                "Gender": "male",
+                "Description": "Suffers mental breakdown, nostalgic, radio host."
+            },
+            {
+                "Name": "Arnie Silver",
+                "Importance": "Supporting",
+                "Age": "49 in past, older in present",
+                "Gender": "male",
+                "Description": "Patriarch, controlling, now on life support."
+            },
+            {
+                "Name": "Sybil",
+                "Importance": "Supporting",
+                "Age": "34",
+                "Gender": "female",
+                "Description": "Cher's girlfriend, frustrated with Cher's emotional distancing."
+            }
+        ]
+    },
+    "Evaluation": {
+        "Writing / Dialogues": {
+            "Grade": "Good",
+            "Reason": "The dialogues are meaningful and capture the essence of family dysfunction and individual struggle in a realistic manner. There is an evident complexity in the way characters communicate, highlighting their distinct voices and underlying issues. While dealing with serious themes, there are instances of levity that provide relief. The interweaving of past and present adds depth to the narrative, though at times the transition from one timeline to another could be clearer."
+        },
+        "Characters": {
+            "Grade": "Good",
+            "Reason": "Each character is multifaceted, suggesting a rich backstory that informs their present situation. The shifting dynamics within the Silver family portray a realistic complexity of relationships that evolve over time. Despite their individual paths and personal growth, the bond they share as a family becomes a focal point as they reconvene in a time of crisis. The tension between honoring personal needs and familial duty is palpable, offering relatable and emotionally resonant experiences. Some, like Cher, go through a more visible transformation during the story, enhancing her relatability and the audience's ability to root for her."
+        }
+    }
+}
